@@ -178,7 +178,7 @@ final class Latvian extends Language
 	public function getCurrencyNameMinor(int $amount, string $currency): string
 	{
 		static $names = [
-			Speller::CURRENCY_EURO               => ['cents', 'centi', 'centu'],
+			Speller::CURRENCY_EURO               => ['cents', 'centi', 'centi'],
 			Speller::CURRENCY_BRITISH_POUND      => ['penijs', 'peniji', 'peniju'],
 			Speller::CURRENCY_LATVIAN_LAT        => ['santīms', 'santīmi', 'santīmu'],
 			Speller::CURRENCY_LITHUANIAN_LIT     => ['cents', 'centi', 'centu'],
